@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     
-    @IBAction func showName(AnyObject) {
+    @IBAction func showName(_: AnyObject) {
         nameLabel.text = "My name is Abass!"
     }
 
