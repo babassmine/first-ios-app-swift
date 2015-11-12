@@ -40,7 +40,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sM-UM-jcN">
-                                <rect key="frame" x="251" y="199" width="0.0" height="0.0"/>
+                                <rect key="frame" x="192" y="199" width="264" height="38"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -51,7 +51,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="gem" destination="7sM-UM-jcN" id="k80-L4-GyE"/>
+                        <outlet property="gem" destination="7sM-UM-jcN" id="1zQ-Lr-nQ4"/>
                         <outlet property="nameLabel" destination="QeY-OQ-Cnt" id="ypp-3L-jsp"/>
                     </connections>
                 </viewController>
