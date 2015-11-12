@@ -11,9 +11,14 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var gem: UILabel!
     
     @IBAction func showName(_: AnyObject) {
         nameLabel.text = "My name is Abass!"
+    }
+    
+    @IBAction func showGem(_: AnyObject){
+        gem.text = "You found a gem"
     }
 
     override func viewDidLoad() {
