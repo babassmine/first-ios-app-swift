@@ -35,6 +35,9 @@
                                 <rect key="frame" x="209" y="161" width="33" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Gem"/>
+                                <connections>
+                                    <action selector="showGem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R1p-4V-XhU"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sM-UM-jcN">
                                 <rect key="frame" x="251" y="199" width="0.0" height="0.0"/>
@@ -48,6 +51,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="gem" destination="7sM-UM-jcN" id="k80-L4-GyE"/>
                         <outlet property="nameLabel" destination="QeY-OQ-Cnt" id="ypp-3L-jsp"/>
                     </connections>
                 </viewController>
